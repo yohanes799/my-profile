@@ -57,7 +57,7 @@ const About = () => {
         </div>
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="glass p-6 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
-            <h4 className="text-4xl font-bold text-blue-400 mb-2">1+</h4>
+            <h4 className="text-4xl font-bold text-blue-400 mb-2">2+</h4>
             <p className="text-slate-400 text-sm">Tahun Pengalaman (Belajar)</p>
           </div>
           <div className="glass p-6 rounded-xl border border-slate-700 hover:border-purple-500/50 transition-colors">
