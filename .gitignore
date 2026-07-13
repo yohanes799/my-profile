@@ -1,0 +1,16 @@
+# Dependency
+node_modules/
+
+# Build hasil compile
+dist/
+
+# Environment
+.env
+.env.local
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
