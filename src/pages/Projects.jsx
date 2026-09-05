@@ -1,30 +1,30 @@
-import { motion } from 'framer-motion';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
-import porto1 from '../assets/porto1.png';
-import porto2 from '../assets/porto2.png';
+import { motion } from "framer-motion";
+import { FiExternalLink } from "react-icons/fi";
+import porto1 from "../assets/porto1.png";
+import porto2 from "../assets/porto2.png";
+import porto3 from "../assets/porto3.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Booking Lapangan Futsal',
-      desc: 'Website Sistem Booking Lapangan Futsal dan design yang responsif.',
-      tech: ['Laravel', 'Tailwind', 'React'],
+      title: "Booking Lapangan Futsal",
+      desc: "Website Sistem Booking Lapangan Futsal dan design yang responsif.",
+      tech: ["Laravel", "Tailwind", "React"],
       image: porto1,
-      project: 'https://booking-futsal.xo.je/?i=2',
-      github: 'https://github.com/yohanes799/sistem-booking-lapangan-futsal',
+      project: "https://booking-futsal.xo.je/?i=2",
     },
     {
-      title: 'Landing Page IOT Kejernihan Air',
-      desc: 'Halaman depan untuk website sistem iot mendeteksi Kejernihan air.',
-      tech: ['React', 'Tailwind', 'Express js', 'MQTT'],
+      title: "Landing Page IOT Kejernihan Air",
+      desc: "Halaman depan untuk website sistem iot mendeteksi Kejernihan air.",
+      tech: ["React", "Tailwind", "Express js", "MQTT"],
       image: porto2,
     },
     {
-      title: 'Aplikasi Todo List',
-      desc: 'Aplikasi manajemen tugas sederhana dengan fitur drag-and-drop dan penyimpanan lokal.',
-      tech: ['JavaScript', 'HTML', 'CSS'],
-      image:
-        'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=800&auto=format&fit=crop',
+      title: "Landing Page Jual Rumah",
+      desc: "Website Landing Page yang yang menyajikan Informasi Jual Beli Rumah .",
+      tech: ["NextJs", "Typescript", "Tailwind"],
+      image: porto3,
+      project: "https://house-seller-black.vercel.app/",
     },
   ];
 
@@ -94,12 +94,6 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-4">
-                <a
-                  href={project.github}
-                  className="text-slate-300 hover:text-white transition-colors"
-                >
-                  <FiGithub size={20} />
-                </a>
                 <a
                   href={project.project}
                   className="text-slate-300 hover:text-blue-400 transition-colors"
